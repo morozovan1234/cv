@@ -18,3 +18,54 @@ In my freetime I try to learn something new related to programming, computer gra
 - C++, Assembler
 - HTML
 - Adobe Photoshop, illustrator
+### Code example:
+Condition: *Given an array of N real numbers. Write a program to find in this array the sum of the array elements located between the first and second negative elements.*
+```
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    double a;
+    double sum = 0;
+    int n;
+    int step = 0;
+    cout << "Введите размер массива: ";
+    cin >> n;
+    cout << "Введите элементы массива: " << endl;
+    for (int j = 0; j < n; j++)
+    {
+        cin >> a;
+        switch (step)
+        {
+        case 0:
+            if (a < 0)
+                step = 1;
+            break;
+        case 1:
+            if (a < 0)
+                step = 2;
+            else
+                sum += a;
+            break;
+        case 2:
+            break;
+        }
+    }
+    switch (step)
+    {
+    case 0:
+        cout << "Нет отрицательных элементов" << endl;
+        break;
+    case 1:
+        cout << "Есть только один отрицательный элемент" << endl;
+        break;
+    case 2:
+        cout << "Сумма =  " << sum << endl;
+    }
+    return 0;
+}
+```
