@@ -72,4 +72,6 @@ int main()
 }
 ```
 ### Languages:
-* English - Pre-intermidiate
+* English - Intermidiate
+
+<img src="https://user-images.githubusercontent.com/103749809/164976080-743bd8b9-34ac-4f99-80a4-4acd1ee690e5.png" width="200" />
