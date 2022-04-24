@@ -1,5 +1,7 @@
 # Anastasia Morozova
 ## Student of VSU named after P.M.Masherov
+<img src="https://sun9-42.userapi.com/s/v1/ig2/nwf68FvuE13eLvQ-rVPqItW4f7rLNSq3JbZc6AG22s_l04HP_J3wg0l2X7-nboTDMpvHHgFPvnrEp8E1--PerxSO.jpg?size=810x1080&quality=96&type=album" width="150" />
+
 ### Contact information:
 **Phone:** +375298195778
 
